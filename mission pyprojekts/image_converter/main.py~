@@ -3,18 +3,18 @@
 from PIL import Image
 import os
 
-def convert_jpeg_images_to_png(input_folder_path_dir, output_folder_path_dir):
+def convert_jpeg_images_to_png(input_folder_path, output_folder_path):
     # Create the output folder if it doesn't already exist
-    if not os.path.exists(output_folder_path_dir):
-        os.makedirs(output_folder_path_dir)
+    if not os.path.exists(output_folder_path):
+        os.makedirs(output_folder_path)
 
     # Loop through all the files in the input folder
-    for filename in os.listdir(input_folder_path_dir):
+    for filename in os.listdir(input_folder_path):
         # Check if the file is a JPEG image
         if filename.lower().endswith(('.jpg', '.jpeg')):
             # Get the paths to the JPEG file and the PNG file that will be created
-            jpeg_file_path = os.path.join(input_folder_path_dir, filename)
-            png_file_path = os.path.join(output_folder_path_dir, os.path.splitext(filename)[0] + '.png')
+            jpeg_file_path = os.path.join(input_folder_path, filename)
+            png_file_path = os.path.join(output_folder_path, os.path.splitext(filename)[0] + '.png')
 
             # Attempt to open the JPEG image and convert it to PNG
             try:

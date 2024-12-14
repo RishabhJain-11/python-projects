@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d25ace43-0e90-4d54-af33-d19969f342f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission pyprojekts/image_converter/mission pyprojekts/image_converter/jpegimages/47250c0d9dc19ef694214efff942c0e9 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission pyprojekts/image_converter/mission pyprojekts/image_converter/jpegimages/70c0a1697ebac424943d01cb614a1e82.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission pyprojekts/image_converter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission pyprojekts/image_converter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pjRp9TGo8wNVpf3Y1JmoPOiHrh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,9 +46,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Rishabh/PycharmProjects/PythonProject3/mission pyprojekts/image_converter/jpegimages"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rishabh\PycharmProjects\PythonProject3\mission pyprojekts\image_converter\jpegimages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rishabh\PycharmProjects\PythonProject3\mission pyprojekts\image_converter\mission pyprojekts\image_converter" />
+      <recent name="C:\Users\Rishabh\PycharmProjects\PythonProject3\mission pyprojekts\image_converter" />
+      <recent name="C:\Users\Rishabh\PycharmProjects\PythonProject3\mission pyprojekts" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
