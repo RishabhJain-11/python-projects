@@ -1,0 +1,21 @@
+import streamlit as st
+
+def main():
+    st.title("Age Calculator")
+    st.header("Enter your birthday and current date:")
+
+    birthday = st.date_input("Birthday")
+    now = st.date_input("Current date")
+
+    age_in_days = (now - birthday).days
+    years = age_in_days // 365
+    months = (age_in_days % 365) // 30
+    days = (age_in_days % 365) % 30
+
+    st.subheader("You have lived:")
+    st.write(f'{years} years, {months} months and {days} days')
+    st.write(f'{years*12 + months} months')
+    st.write(f'{age_in_days} days')
+
+if __name__ == '__main__':
+    main()

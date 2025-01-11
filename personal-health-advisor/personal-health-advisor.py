@@ -130,7 +130,7 @@ def main():
     gender = input("Enter your gender (male/female): ")
     height_cm = float(input("Enter your height in cm: "))
     weight = float(input("Enter your weight in kg: "))
-    activity_level = input("Enter your activity level (sedentary/moderate/active): ")
+    activity_level = input("Enter your activity level (sedentary/moderate/active/very active): ")
     food_preference = input("Enter your food preference (vegetarian/gluten-free): ")
 
     # Convert height from cm to m

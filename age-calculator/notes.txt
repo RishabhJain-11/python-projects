@@ -1,0 +1,10 @@
+Clean Code for Java (Engine)
+
+1. If a variable is used more than 2 times than declare it globally.
+2. Make conditions for every single work.
+3. A function should only do one sort of operation.
+4. Add try - catch for every possible breakpoint.
+5. Clear function names (also can take inputs from ChatGPT)
+6. Every string should be replaced by a constant.
+7. Add logger message wherever required.
+8. 

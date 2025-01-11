@@ -122,3 +122,52 @@ def suggest_meal_plan(_bmi, _food_preference):
         meal_plan["Lunch"] = "Grilled chicken salad with mixed greens and gluten-free vinaigrette (400 kcal)"
 
     return meal_plan
+
+def main():
+    """Main entry point of the script."""
+    # Get user input
+    age = int(input("Enter your age: "))
+    gender = input("Enter your gender (male/female): ")
+    height_cm = float(input("Enter your height in cm: "))
+    weight = float(input("Enter your weight in kg: "))
+    activity_level = input("Enter your activity level (sedentary/moderate/active): ")
+    food_preference = input("Enter your food preference (vegetarian/gluten-free): ")
+
+    # Convert height from cm to m
+    height_m = height_cm / 100
+
+    # Calculate BMI and provide recommendations
+    bmi = calculate_bmi(weight, height_m)
+    bmi_advice = get_bmi_recommendation(bmi)
+
+    # Calculate daily water intake
+    water_intake = calculate_daily_water_intake(weight, age)
+
+    # Recommend daily calorie intake
+    calorie_intake = recommend_calories(age, gender, height_m, weight, activity_level)
+
+    # Recommend sleep duration
+    sleep_advice = recommend_sleep(age)
+
+    # Calculate macronutrient breakdown
+    macros = calculate_macros(calorie_intake)
+
+    # Suggest meal plan
+    meal_plan = suggest_meal_plan(bmi, food_preference)
+
+    # Display results
+    print("\n\n\n")
+    print(" === Personal Health Report === ")
+    print(f"Your BMI: {bmi} (Normal weight: 18.5-24.9)")
+    print(f"Health Advice: {bmi_advice}")
+    print(f"Recommended Daily Water Intake: {water_intake} liters")
+    print(f"Recommended Daily Calorie Intake: {calorie_intake} kcal")
+    print(f"Recommended Macronutrient Breakdown: {macros}")
+    print(f"Sleep Advice: {sleep_advice}")
+    print(f"Meal Plan: {meal_plan}")
+    print("==============================")
+    print("Remember, these are just recommendations. Always consult a healthcare professional for personalized advice!")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,35 @@
+import python_weather
+import asyncio
+
+async def get_weather_data(location, unit):
+    if unit.lower() == 'metric':
+        unit_system = python_weather.METRIC
+    else:
+        unit_system = python_weather.IMPERIAL
+
+    async with python_weather.Client(unit=unit_system) as client:
+        data = await client.get(location)
+        return data
+
+def print_weather_data(weather, unit):
+    print(f"Current weather in {weather.location_name}:")
+    print(f"  Condition: {weather.current.sky_text}")
+    print(f"  Temperature: {weather.current.temperature} {'C' if unit == 'metric' else 'F'}")
+    print(f"  Humidity: {weather.current.humidity}%")
+    print(f"  Wind speed: {weather.current.wind_display}")
+
+    print("\n5-day Forecast:")
+    for forecast in weather.forecasts:
+        print(f"  Date: {forecast.date}")
+        print(f"    Condition: {forecast.sky_text}")
+        print(f"    High: {forecast.high} {'C' if unit == 'metric' else 'F'}")
+        print(f"    Low: {forecast.low} {'C' if unit == 'metric' else 'F'}")
+
+async def main():
+    location = input("Enter Location: ")
+    unit = input("Enter unit (metric or imperial): ")
+    weather = await get_weather_data(location, unit)
+    print_weather_data(weather, unit)
+
+if __name__ == "__main__":
+    asyncio.run(main())
