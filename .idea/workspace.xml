@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25ace43-0e90-4d54-af33-d19969f342f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-scrapper/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgenticAI/Nutri/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgenticAI/Nutri/nutrition_coach.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/col-dema-ils/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/col-dema-ils/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.age_calc.executor": "Run",
     "Python.main.executor": "Run",
     "Python.personal-health-advisor.executor": "Run",
@@ -48,7 +51,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Rishabh/PycharmProjects/PythonProject3/personal-health-advisor",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

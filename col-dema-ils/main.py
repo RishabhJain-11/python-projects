@@ -16,7 +16,7 @@ Usage
 
 1. Install the required packages by running `pip install -r requirements.txt`
 2. Configure the email settings in `settings.py`
-3. Run the script using `python main.py`
+3. Run the script using `python nutrition_coach.py`
 
 """
 
